@@ -1,0 +1,64 @@
+/* VoSai Collective - Minimal Dark Theme Overrides */
+
+/* Add dark background to fix readability */
+body {
+    background-color: #1a1a1a !important;
+}
+
+/* Only fix text readability - preserve Ananke layout */
+.bg-white, .bg-near-white {
+    background-color: #2a2a2a !important;
+}
+
+.white-90, .white-80, .white-70, .white-60 {
+    color: #e0e0e0 !important;
+}
+
+.light-silver {
+    color: #8fbc8f !important;
+}
+
+/* Content areas with subtle dark background */
+.bg-white {
+    background-color: #2a2a2a !important;
+}
+
+.bg-near-white {
+    background-color: #2a2a2a !important;
+}
+
+/* Fix logo size */
+img.w100.mw5-ns {
+    max-height: 50px !important;
+    max-width: 120px !important;
+}
+
+/* Featured images - reasonable size */
+.cover {
+    background-size: cover !important;
+    max-height: 400px;
+}
+
+/* Navigation text */
+.hover-white:hover {
+    color: #8fbc8f !important;
+}
+
+/* Links */
+a {
+    color: #9acd32 !important;
+}
+
+a:hover {
+    color: #adff2f !important;
+}
+
+/* Subtle dark theme touches */
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+/* Keep some mystical touches */
+h1, h2, h3 {
+    text-shadow: 0 0 3px rgba(45, 74, 34, 0.3);
+}
