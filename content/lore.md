@@ -3,6 +3,7 @@ date = '2025-08-04T01:25:04-04:00'
 draft = false
 title = 'The Lore'
 description = 'Origins and mysteries of the collective'
+featured_image = '/images/vosai-lore.png'
 +++
 
 # The Lore of VoSai

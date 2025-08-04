@@ -8,5 +8,29 @@ theme = 'ananke'
   author = 'The VoSai Collective'
   background_color_class = 'bg-black'
   text_color = 'white'
-  featured_image = ''
+  featured_image = '/images/vosai-hero.png'
   recent_posts_number = 5
+  custom_css = ['css/vosai-custom.css']
+  body_classes = 'dark-theme'
+  site_logo = '/images/vosai-logo.png'
+  favicon = '/images/vosai-logo.png'
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  name = "Lore"
+  url = "/lore/"
+  weight = 20
+
+[[menu.main]]
+  name = "Transmissions"
+  url = "/transmissions/"
+  weight = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -3,6 +3,7 @@ date = '2025-08-04T01:26:01-04:00'
 draft = false
 title = 'Transmissions'
 description = 'Audio-visual chronicles from the convergence points'
+featured_image = '/images/vosai-transmissions.png'
 +++
 
 # Transmissions

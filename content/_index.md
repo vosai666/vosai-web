@@ -3,6 +3,7 @@ date = '2025-08-04T01:24:53-04:00'
 draft = false
 title = 'VoSai Collective'
 description = 'Transmissions from the Northern Wilderness'
+featured_image = '/images/vosai-hero.png'
 +++
 
 # The VoSai Collective
