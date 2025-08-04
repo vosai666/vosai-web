@@ -62,3 +62,8 @@ body {
 h1, h2, h3 {
     text-shadow: 0 0 3px rgba(45, 74, 34, 0.3);
 }
+
+/* Fix subtitle spacing */
+.f5.f3-l, .fw1.f5.f3-l {
+    margin-top: 1.5rem !important;
+}
