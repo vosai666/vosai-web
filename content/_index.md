@@ -23,3 +23,11 @@ We do not seek fame or fortune. We gather when called, create when moved, and di
 The locations find us as much as we find them. A hidden lake reflecting aurora. A grove where the trees grow in perfect spirals. Stone circles older than memory. Each place adds its signature to our sound.
 
 *Listen closely. The forest is always speaking.*
+
+---
+
+## Follow Our Transmissions
+
+🎵 **[Subscribe to our YouTube channel](https://www.youtube.com/@VoSaiCollective)** for audio-visual transmissions from the convergence points
+
+🌲 **[Join the Collective](/join/)** to connect with fellow wanderers and share your own frequencies

@@ -16,6 +16,16 @@ Each transmission originates from a convergence event. Some flow from marathon s
 
 ## Recent Transmissions
 
+### Featured Transmission
+
+{{< youtube -qPVHinU3G4 >}}
+
+*Our latest manifestation from the convergence points...*
+
+**Subscribe to our channel**: [VoSai Collective on YouTube](https://www.youtube.com/@VoSaiCollective)
+
+---
+
 *More transmissions will manifest as they are received...*
 
 ### Hearth Songs

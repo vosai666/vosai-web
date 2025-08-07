@@ -30,6 +30,11 @@ theme = 'ananke'
   url = "/transmissions/"
   weight = 30
 
+[[menu.main]]
+  name = "Join"
+  url = "/join/"
+  weight = 40
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
