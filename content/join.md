@@ -16,10 +16,7 @@ The VoSai Collective exists in the spaces between—where the digital realm meet
 **Share your digital presence** and we'll find you across the networks. Follow for follow, support for support—this is how the mycelial web of creativity grows.
 
 <div class="join-form">
-<form name="join-collective" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-  <p style="display: none;">
-    <label>Don't fill this out if you're human: <input name="bot-field" /></label>
-  </p>
+<form id="join-collective-form" action="https://vosai-form-handler.ssivostech.workers.dev" method="POST">
   
   <div class="form-group">
     <label for="name">Name/Handle *</label>
@@ -63,7 +60,36 @@ The VoSai Collective exists in the spaces between—where the digital realm meet
   
   <button type="submit">Join the Convergence</button>
 </form>
+<div id="form-message" style="margin-top: 1em; color: #9acd32;"></div>
 </div>
+
+<script>
+  document.getElementById('join-collective-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent default form submission
+
+    const form = event.target;
+    const formData = new FormData(form);
+    const messageDiv = document.getElementById('form-message');
+
+    messageDiv.textContent = 'Sending...';
+
+    fetch(form.action, {
+      method: 'POST',
+      body: formData,
+      mode: 'no-cors', // Use no-cors mode for cross-origin requests to workers
+    })
+    .then(response => {
+        // The 'no-cors' mode results in an opaque response, so we can't directly check status.
+        // We will assume success and provide feedback to the user.
+        messageDiv.textContent = 'Thank you for your submission!';
+        form.reset(); // Clear the form fields
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      messageDiv.textContent = 'An error occurred. Please try again.';
+    });
+  });
+</script>
 
 ---
 
