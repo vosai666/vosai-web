@@ -16,7 +16,7 @@ The VoSai Collective exists in the spaces between—where the digital realm meet
 **Share your digital presence** and we'll find you across the networks. Follow for follow, support for support—this is how the mycelial web of creativity grows.
 
 <div class="join-form">
-<form id="join-collective-form" action="https://vosai-form-handler.ssivostech.workers.dev" method="POST">
+<form id="join-collective-form" action="https://vosai-contact-form.ssivostech.workers.dev" method="POST">
   
   <div class="form-group">
     <label for="name">Name/Handle *</label>
